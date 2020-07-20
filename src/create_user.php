@@ -7,7 +7,7 @@
 	}
 	elseif($_SESSION['logged_in']!== 0) {
 		die("ERROR : You do not have sufficient
-		 privelege to access this");
+		 privilege to access this");
 	}
 
 ?>
