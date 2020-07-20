@@ -6,7 +6,7 @@
     }
     elseif(($_SESSION['logged_in'] !== 0) && ($_SESSION['logged_in'] !== 1)) {
         die("ERROR : You do not have sufficient
-         privelege to access this");
+         privilege to access this");
     }
  ?>
 
